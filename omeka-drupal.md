@@ -1,5 +1,4 @@
-
-```mermaid
+<div class="mermaid">
 flowchart TD
     classDef omekaStyle fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
     classDef appStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
@@ -54,8 +53,9 @@ flowchart TD
 
     OMEKA ==>|API Read| A_Extract
     A_Load ==>|API Write| DRUPAL
-```
+</div>
+
 <script type="module">
-  import mermaid from '[https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs](https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs)';
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
