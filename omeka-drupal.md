@@ -55,3 +55,7 @@ flowchart TD
     OMEKA ==>|API Read| A_Extract
     A_Load ==>|API Write| DRUPAL
 ```
+<script type="module">
+  import mermaid from '[https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs](https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs)';
+  mermaid.initialize({ startOnLoad: true });
+</script>
