@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" pages="2">
+  <diagram name="Organizzazione politica" id="fJi4ycSMJlPodj3w0HGq">
+    <mxGraphModel dx="1717" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pteILXel4awOpfvX_YFy-3" edge="1" parent="1" source="dnqWYTOoeZH9QZk5Y2u3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="Y2UUmjbtdfs_z9O4oWHy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pteILXel4awOpfvX_YFy-4" edge="1" parent="1" source="dnqWYTOoeZH9QZk5Y2u3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="uj48DRHArPL8nA-S3l-p-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pteILXel4awOpfvX_YFy-5" connectable="0" parent="pteILXel4awOpfvX_YFy-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;ordini attuati&lt;/div&gt;&lt;div&gt;da&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.524" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnqWYTOoeZH9QZk5Y2u3-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=14;labelBackgroundColor=none;verticalAlign=middle;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;i&gt;D&lt;/i&gt;&lt;/span&gt;ī&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;i&gt;w&lt;/i&gt;&lt;/span&gt;&lt;i&gt;ān&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(Consiglio di Stato)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78.51239669421489" width="209.06690140845072" x="710.7922535211268" y="626.50826446281" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-20" edge="1" parent="1" source="dnqWYTOoeZH9QZk5Y2u3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="dnqWYTOoeZH9QZk5Y2u3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-21" connectable="0" parent="Y2UUmjbtdfs_z9O4oWHy-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="&lt;div&gt;Col tempo prevalica sul&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2025" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnqWYTOoeZH9QZk5Y2u3-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontStyle=1;fontSize=15;" value="DEY" vertex="1">
+          <mxGeometry height="58.88429752066116" width="181.56690140845072" x="445.2816901408451" y="626.50826446281" as="geometry" />
+        </mxCell>
+        <mxCell id="pteILXel4awOpfvX_YFy-7" edge="1" parent="1" source="dnqWYTOoeZH9QZk5Y2u3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pteILXel4awOpfvX_YFy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dnqWYTOoeZH9QZk5Y2u3-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;" value="&lt;b&gt;&lt;i&gt;Pasha&amp;nbsp;&lt;/i&gt;&lt;/b&gt;(governatore" vertex="1">
+          <mxGeometry height="66.73553719008265" width="246.25000000000003" x="412.94014084507046" y="392.93388429752065" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-5" edge="1" parent="1" source="dnqWYTOoeZH9QZk5Y2u3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="uj48DRHArPL8nA-S3l-p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-6" connectable="0" parent="uj48DRHArPL8nA-S3l-p-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBorderColor=none;rounded=1;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="&lt;div&gt;capeggiato&lt;/div&gt;&lt;div&gt;da&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2622" y="-2" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=14;labelBackgroundColor=none;verticalAlign=middle;fontStyle=1" value="&lt;div&gt;GIANNIZZERI&lt;/div&gt;&lt;div&gt;(&lt;i&gt;Iodalchi)&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75.56818181818181" width="264.08450704225356" x="1043.0985915492959" y="626.50826446281" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-25" edge="1" parent="1" source="Y2UUmjbtdfs_z9O4oWHy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="dnqWYTOoeZH9QZk5Y2u3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;strokeColor=none;fontSize=11;fontStyle=0;fillColor=none;" value="&lt;div&gt;&lt;span&gt;Designato A VITA&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="33.37" width="88.45" x="196.34" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;sottratti alla giurisdizione locale&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="1060.7042253521126" y="705.0206611570248" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-1" edge="1" parent="1" source="Y2UUmjbtdfs_z9O4oWHy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="dnqWYTOoeZH9QZk5Y2u3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-2" connectable="0" parent="uj48DRHArPL8nA-S3l-p-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="governata da" vertex="1">
+          <mxGeometry relative="1" x="0.0223" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2UUmjbtdfs_z9O4oWHy-27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fontColor=#004C99;fontFamily=montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dmontserrat;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Reggenza di ALGERI&lt;/h1&gt;&lt;p&gt;&lt;i&gt;Dawlat al-Jazāʼir&lt;/i&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="477.04" x="297.54999999999995" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=14;labelBackgroundColor=none;verticalAlign=middle;fontStyle=1" value="&lt;i&gt;Agha&lt;/i&gt;" vertex="1">
+          <mxGeometry height="52.99586776859504" width="125.00000000000001" x="754.3661971830987" y="449.85537190082647" as="geometry" />
+        </mxCell>
+        <mxCell id="uj48DRHArPL8nA-S3l-p-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontStyle=1;fontSize=11;" value="&lt;div&gt;Çavuş&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(ufficiali di polizia)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="78.51239669421489" width="124.01408450704227" x="611.4260563380283" y="891.4876033057851" as="geometry" />
+        </mxCell>
+        <mxCell id="pteILXel4awOpfvX_YFy-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=0;" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;formato da centinaia di persone&lt;/li&gt;&lt;li&gt;24 ufficiali della milizia&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="780.0022535211268" y="713.0201652892563" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;span id=&quot;mwEQ&quot;&gt;detto anche&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i id=&quot;mwEQ&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Beylerbeyi&lt;/font&gt;&lt;/i&gt;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;(&quot;&lt;a rel=&quot;mw:WikiLink&quot; href=&quot;https://it.wikipedia.org/wiki/Bey_(carica)&quot; title=&quot;Bey (carica)&quot; id=&quot;mwEg&quot;&gt;bey&lt;/a&gt; dei bey&quot;)&lt;/div&gt;" link="&lt;i id=&quot;mwEQ&quot;&gt;beylerbeyi&lt;/i&gt;, ossia &quot;&lt;a rel=&quot;mw:WikiLink&quot; href=&quot;https://it.wikipedia.org/wiki/Bey_(carica)&quot; title=&quot;Bey (carica)&quot; id=&quot;mwEg&quot;&gt;bey&lt;/a&gt; dei bey&quot;," id="pteILXel4awOpfvX_YFy-6">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;align=center;" vertex="1">
+            <mxGeometry height="50.14" width="95.28" x="192.92000000000002" y="449.86" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mYmr0D-_LNBcN1ToeXpe" name="Divisione prese">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k04WmAutiVz3E67YGZqU-5" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="k04WmAutiVz3E67YGZqU-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-7" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="k04WmAutiVz3E67YGZqU-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-6" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#d5e8d4;dashed=1;" target="PHSzHh4wo_CfVQa5-3yJ-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=35;" value="&lt;b&gt;BOTTINO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="170" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-4" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="PHSzHh4wo_CfVQa5-3yJ-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=20;" value="&lt;span&gt;&lt;b&gt;1/5 (20%) → &lt;/b&gt;STATO &lt;b&gt;(il &quot;quinto&quot;)&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="330" x="450" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-9" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="k04WmAutiVz3E67YGZqU-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-11" edge="1" parent="1" source="k04WmAutiVz3E67YGZqU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#dae8fc;" target="k04WmAutiVz3E67YGZqU-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=20;" value="&lt;b&gt;4/5 (80%) &lt;/b&gt;→ divisi in DUE PARTI UGUALI" vertex="1">
+          <mxGeometry height="80" width="220" x="450" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=20;" value="&lt;b&gt;50% →&lt;/b&gt; ARMATORI" vertex="1">
+          <mxGeometry height="70" width="190" x="810" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="k04WmAutiVz3E67YGZqU-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=20;" value="&lt;span&gt;&lt;b&gt;50% →&lt;/b&gt; FORNITORI&lt;br/&gt;&lt;/span&gt;&lt;span&gt;                           EQUIPAGGIO&lt;br/&gt;&lt;/span&gt;&lt;span&gt;                           SOLDATI ecc.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="810" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=18;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ALGERI&lt;/h1&gt;Divisione del Bottino" vertex="1">
+          <mxGeometry height="90" width="310" x="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=18;" value="&lt;span&gt;             giustificazione coranica&lt;/span&gt;&lt;span&gt;&amp;nbsp;» Sura VIII&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-9" edge="1" parent="1" source="PHSzHh4wo_CfVQa5-3yJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#d5e8d4;dashed=1;" target="PHSzHh4wo_CfVQa5-3yJ-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-12" edge="1" parent="1" source="PHSzHh4wo_CfVQa5-3yJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#d5e8d4;dashed=1;" target="PHSzHh4wo_CfVQa5-3yJ-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="550" />
+              <mxPoint x="265" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-14" edge="1" parent="1" source="PHSzHh4wo_CfVQa5-3yJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=1;fillColor=#d5e8d4;dashed=1;" target="PHSzHh4wo_CfVQa5-3yJ-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=15;align=center;fontColor=default;fontStyle=0" value="PRIMA della divisione si detraggono" vertex="1">
+          <mxGeometry height="40" width="190" x="170" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=15;align=center;fontColor=default;" value="Spese di scarico" vertex="1">
+          <mxGeometry height="30" width="100" x="330" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=15;align=center;fontColor=default;" value="Diritti e tasse" vertex="1">
+          <mxGeometry height="30" width="90" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="PHSzHh4wo_CfVQa5-3yJ-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=none;verticalAlign=middle;fontSize=15;" value="&lt;span&gt;Compensi a pesatori,&lt;br/&gt;&lt;/span&gt;&lt;span&gt;  misuratori, scrivani,&lt;br/&gt;&lt;/span&gt;&lt;span&gt;  banditori&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="174" x="40" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
