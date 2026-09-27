@@ -1,53 +1,188 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Architettura Omeka S → Drupal</title>
-  
-  <!-- Caricamento libreria Mermaid da CDN -->
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true, theme: 'default' });
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Architettura Omeka S → Drupal</title>
 
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 40px 20px;
-      margin: 0;
-      min-height: 100vh;
-      box-sizing: border-box;
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      fontFamily: '"Inter", -apple-system, "Segoe UI", Roboto, sans-serif',
+      fontSize: '15px',
+      lineColor: '#94a3b8',
+      primaryColor: '#ffffff',
+      primaryBorderColor: '#94a3b8',
+      primaryTextColor: '#1e293b',
+      clusterBkg: 'rgba(148,163,184,0.06)',
+      clusterBorder: 'rgba(148,163,184,0.35)',
+      edgeLabelBackground: 'rgba(255,255,255,0.75)'
+    },
+    flowchart: { curve: 'basis', htmlLabels: true }
+  });
+
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const svg = document.querySelector('.mermaid svg');
+      if (!svg) return;
+      svg.removeAttribute('height');
+      svg.style.maxWidth = '100%';
+      svg.style.height = 'auto';
+
+      if (window.svgPanZoom) {
+        const instance = window.svgPanZoom(svg, {
+          zoomEnabled: true,
+          panEnabled: true,
+          controlIconsEnabled: false,
+          fit: true,
+          center: true,
+          minZoom: 0.5,
+          maxZoom: 6,
+          zoomScaleSensitivity: 0.35
+        });
+        window.panZoomInstance = instance;
+      }
+    }, 300);
+  });
+
+  window.zoomIn = () => window.panZoomInstance?.zoomIn();
+  window.zoomOut = () => window.panZoomInstance?.zoomOut();
+  window.resetZoom = () => window.panZoomInstance?.resetZoom();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --text-color: #1e293b;
+    --muted: #64748b;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text-color: #e2e8f0;
+      --muted: #94a3b8;
     }
-    .mermaid-container {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-      max-width: 100%;
-      overflow-x: auto;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: 'Inter', -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  .diagram-wrap {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 8px;
+  }
+
+  .mermaid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+    cursor: grab;
+  }
+  .mermaid svg:active { cursor: grabbing; }
+
+  /* Evidenziazione al passaggio del mouse: intere sezioni (subgraph) */
+  .mermaid svg .cluster {
+    transition: filter 0.2s ease, opacity 0.2s ease;
+  }
+  .mermaid svg .cluster rect {
+    transition: stroke-width 0.2s ease, filter 0.2s ease;
+  }
+  .mermaid svg .cluster:hover rect {
+    stroke-width: 2.5px;
+    filter: drop-shadow(0 4px 14px rgba(37,99,235,0.25));
+  }
+
+  /* Evidenziazione dei singoli nodi */
+  .mermaid svg .node rect,
+  .mermaid svg .node polygon,
+  .mermaid svg .node circle {
+    transition: filter 0.18s ease, stroke-width 0.18s ease, transform 0.18s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  .mermaid svg .node:hover rect,
+  .mermaid svg .node:hover polygon,
+  .mermaid svg .node:hover circle {
+    filter: brightness(1.06) drop-shadow(0 3px 10px rgba(15,23,42,0.25));
+    stroke-width: 2.5px;
+    transform: scale(1.02);
+  }
+
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 6px;
+    z-index: 5;
+  }
+
+  .controls button {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(148,163,184,0.4);
+    background: rgba(255,255,255,0.85);
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transition: background 0.15s, transform 0.1s;
+  }
+  .controls button:hover { background: #fff; transform: translateY(-1px); }
+  .controls button:active { transform: translateY(0); }
+
+  @media (prefers-color-scheme: dark) {
+    .controls button {
+      background: rgba(30,41,59,0.85);
+      color: #e2e8f0;
+      border-color: rgba(148,163,184,0.3);
     }
-  </style>
+    .controls button:hover { background: rgba(30,41,59,1); }
+  }
+
+  @media (max-width: 640px) {
+    .mermaid svg { font-size: 13px; }
+    .controls button { width: 30px; height: 30px; font-size: 14px; }
+  }
+</style>
 </head>
 <body>
 
-  <div class="mermaid-container">
-    <div class="mermaid">
+<div class="diagram-wrap">
+  <div class="mermaid">
 flowchart TD
-    classDef omekaStyle fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
-    classDef appStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
-    classDef drupalStyle fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
-    classDef mediaStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:1px,color:#4a148c;
+    classDef omekaStyle fill:#eaf4fd,stroke:#2f7fc1,stroke-width:1.5px,color:#123a5e;
+    classDef appStyle fill:#fff2e0,stroke:#d98324,stroke-width:1.5px,color:#7a3e0a;
+    classDef drupalStyle fill:#e8f7ec,stroke:#3aa15c,stroke-width:1.5px,color:#1b5e30;
+    classDef mediaStyle fill:#f4ecfb,stroke:#8b5cc7,stroke-width:1px,color:#4a2d6b;
 
     subgraph OMEKA ["1. SORGENTE: Omeka S"]
         O_Cards["<b>100 Schede Torre</b><br/>(Item Set / Item Type 'Torre')"]:::omekaStyle
-        
+
         subgraph O_Assets ["Oggetti Digitali & Metadata correlati"]
             O_Doc["Documenti PDF"]:::mediaStyle
             O_Foto["Foto / Immagini"]:::mediaStyle
@@ -55,7 +190,7 @@ flowchart TD
             O_Art["Articoli"]:::mediaStyle
             O_Bib["Bibliografia"]:::mediaStyle
         end
-        
+
         O_Cards -->|Riferisce / Media Attachment| O_Assets
     end
 
@@ -63,15 +198,15 @@ flowchart TD
         A_Extract["<b>Estrazione Data & Media</b><br/>Lettura via Omeka S REST API (JSON-LD)"]
         A_Map["<b>Mapping & Trasformazione</b><br/>Conversione vocaboli Omeka → Campi Drupal"]
         A_Load["<b>Iniezione Dati</b><br/>Scrittura via Drupal REST / JSON:API"]
-        
+
         A_Extract --> A_Map --> A_Load
     end
-    
+
     class APP appStyle;
 
     subgraph DRUPAL ["3. DESTINAZIONE: Drupal CMS"]
         D_Node["<b>Nodo Drupal: 'Torre'</b><br/>(1 Pagina Web per ciascuna delle 100 Torri)"]:::drupalStyle
-        
+
         subgraph D_Fields ["Campi Scheda Pubblicati"]
             D_F1["Titolo / Denominazione"]
             D_F2["Geolocalizzazione / Coordinate"]
@@ -93,8 +228,14 @@ flowchart TD
 
     OMEKA ==>|API Read| A_Extract
     A_Load ==>|API Write| DRUPAL
-    </div>
   </div>
+
+  <div class="controls">
+    <button onclick="zoomIn()" title="Zoom avanti">+</button>
+    <button onclick="zoomOut()" title="Zoom indietro">−</button>
+    <button onclick="resetZoom()" title="Reimposta vista">⤾</button>
+  </div>
+</div>
 
 </body>
 </html>
